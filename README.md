@@ -94,8 +94,33 @@ nvcc -V
 
 ![image](https://github.com/c1ph3r-fsocitey/CUDA-CUDNN-install-Ubuntu22.04/assets/109020327/0a19a403-4203-42a5-a015-faa786eea838)
 
+## To install PyTorch 
+```
+pip3 install torch torchvision torchaudio
+```
 
+## Verify PyTorch installation
+use the following code in a python file and run it. </br>
+If it outputs "True" it is sucessfully installed
+```
+import torch
+torch.cuda.is_available()
+```
+![image](https://github.com/c1ph3r-fsocitey/CUDA-CUDNN-install-Ubuntu22.04/assets/109020327/fc607d94-37d3-48dc-87ba-7ec66295907f)
 
+## To Install Tensorflow
+```
+python3 -m pip install tensorflow==2.13.*
+```
+## Verify installation
+```
+python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+```
+
+If the output is something like this, it shows TensorFlow has been installed sucessfully for GPU </br>
+[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+
+![image](https://github.com/c1ph3r-fsocitey/CUDA-CUDNN-install-Ubuntu22.04/assets/109020327/b2187207-7924-4d46-a60d-827f96ad73cc)
 
 
 
