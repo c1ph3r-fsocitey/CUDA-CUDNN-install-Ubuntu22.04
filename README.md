@@ -59,7 +59,7 @@ sudo ldconfig
 ```
 ## Step 9: Download cuDNN for CUDA v11.7
 
-Use the following link to register and download the cuDNN Driver here: https://developer.nvidia.com/rdp/cudnn-archive
+Use the following link to register and download the cuDNN Driver here: https://developer.nvidia.com/rdp/cudnn-archive </br>
 Download the one mentioned for CUDA v11.x
 
 [Nvidia_cuDNN.webm](https://github.com/c1ph3r-fsocitey/CUDA-CUDNN-install-Ubuntu22.04/assets/109020327/16f96bbd-630a-4134-9b13-d0cdd9760bbe)
